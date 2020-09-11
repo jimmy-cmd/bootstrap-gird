@@ -1,0 +1,55 @@
+html, body{
+height: 100%;
+}
+
+
+
+
+img{
+	max-width: 100%;
+}
+
+/*cover*/
+#cover{
+	background: url('../img/bootstrap.jpg') center center no-repeat;
+	background-size: cover;
+	color: #fc060cff;
+	height: 90%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+}
+
+#cover-texto{
+	width: 90%;
+
+}
+
+#cover-texto .form-inline{
+	padding: 5rem 0;
+}
+
+.contenido-seccion{
+	padding: 5rem 0;
+}
+
+#acerca-de{
+	background: url('../img/guia.jpg') center center no-repeat;
+	background-size: cover;
+}
+.texto-acerca-de{
+	background: rgb(0, 0, 0, .4); 
+	color: #fff;
+	padding: 1.875rem;
+
+}
+
+
+#footer{
+background:#222;
+color:#fff;
+font-size: 0.9rem;
+padding: 2.5rem 0;
+
+}
